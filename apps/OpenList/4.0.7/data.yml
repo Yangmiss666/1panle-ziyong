@@ -1,0 +1,16 @@
+name: OpenList
+version: 1.0.0
+description: 一个支持多种存储的文件列表程序，使用 Gin 和 Solidjs。
+descriptionEn: A file browser application with multi-storage support, developed using Gin and SolidJS.
+logo: https://example.com/openlist-logo.png
+sourceUrl: https://github.com/openlistteam/openlist
+author: OpenList Team
+formFields:
+  - default: "5244"
+    edit: true
+    envKey: PANEL_APP_PORT_HTTP
+    labelEn: HTTP Port
+    labelZh: HTTP端口
+    required: true
+    rule: paramPort
+    type: number

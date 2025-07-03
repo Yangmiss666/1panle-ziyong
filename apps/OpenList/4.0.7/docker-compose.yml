@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  openlist:
+    image: openlistteam/openlist:latest
+    container_name: ${CONTAINER_NAME}
+    restart: unless-stopped
+    volumes:
+      - /opt/1panel/apps/openlist/data:/opt/openlist/data
+    ports:
+      - "${PANEL_APP_PORT_HTTP}:5244"
+    environment:
+      - PUID=0
+      - PGID=0
+      - UMASK=022
+    networks:
+      - 1panel-network
+
+networks:
+  1panel-network:
+    external: true
