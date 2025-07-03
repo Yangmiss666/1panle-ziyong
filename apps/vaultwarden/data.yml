@@ -1,0 +1,13 @@
+additionalProperties:
+  crossVersionUpdate: true
+  document: https://github.com/dani-garcia/vaultwarden/wiki
+  github: https://github.com/dani-garcia/vaultwarden
+  key: vaultwarden
+  limit: 0
+  name: vaultwarden
+  shortDescEn: Vaultwarden is an open-source Bitwarden password management service.
+  shortDescZh: Vaultwarden开源的Bitwarden密码管理服务。
+  tags:
+  - Local
+  type: tool
+  website: https://github.com/dani-garcia/vaultwarden
