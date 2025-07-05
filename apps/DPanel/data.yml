@@ -1,0 +1,13 @@
+additionalProperties:
+  crossVersionUpdate: true
+  document: https://dpanel.cc/#/zh-cn/install/docker
+  github: https://github.com/donknap/dpanel
+  key: DPanel
+  limit: 0
+  name: DPanel
+  shortDescEn: 轻量化的 Docker 可视化管理面板，提供完善的容器管理功能。
+  shortDescZh: 轻量化的Docker可视化管理面板，提供完善的容器管理功能
+  tags:
+  - Local
+  type: tool
+  website: https://dpanel.cc/#/
